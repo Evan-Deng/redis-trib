@@ -3,6 +3,7 @@
 
 由于原版的针对已经配置auth的redis，无法使用此群集脚本，所以，特意修改一版支持指定auth参数的版。
 
+```shell
 Usage: redis-trib <command> <options> <arguments ...>
 
   create          host1:port1 ... hostN:portN
@@ -47,3 +48,4 @@ Usage: redis-trib <command> <options> <arguments ...>
   help            (show this help)
 
 For check, fix, reshard, del-node, set-timeout you can specify the host and port of any working node in the cluster.
+```
